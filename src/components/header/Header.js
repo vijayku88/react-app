@@ -1,23 +1,21 @@
 import React from 'react';
-import '../App.css';
+//import '../App.css';
 import {
     Navbar,
-    NavbarBrand,
     Nav,
-    NavItem,
-    NavLink
+    NavItem
 } from 'reactstrap';
+import { NavLink } from "react-router-dom";
 
 function Header() {
     return (
         <Navbar color="light" light expand="md">
-            Header Works
             <Nav className="ml-auto" navbar>
                 <NavItem>
-                    <NavLink href="/home">Home</NavLink>
+                    <NavLink to="/home">Home</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="/login">Login</NavLink>
+                    <NavLink to="/login">Login</NavLink>
                 </NavItem>
             </Nav>
         </Navbar>

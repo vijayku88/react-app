@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import AppRouter from './routes/routing';
+import './assets/css/style.css';
+import AppRouter from './route/Index';
 
 function App() {
   return (
-      <AppRouter />
+        <AppRouter/>
   );
 }
 
